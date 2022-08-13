@@ -1,14 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Library</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
-    <AssemblyName>ChromeDriverInstaller</AssemblyName>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+		<AssemblyName>ChromeDriverInstaller</AssemblyName>
+		<Title>ChromeDriverInstaller</Title>
+		<Description>Grabs latest ChromeDriver for Selenium</Description>
+		<RepositoryUrl>https://github.com/Gahmah/DownloadChromeDriverSample</RepositoryUrl>
+		<RepositoryType></RepositoryType>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" />
-    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" />
+		<PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+	</ItemGroup>
 
 </Project>
