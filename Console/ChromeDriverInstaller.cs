@@ -9,7 +9,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 
-namespace SeleniumConsole
+namespace ChromeDriverInstaller
 {
     public class ChromeDriverInstaller
     {
