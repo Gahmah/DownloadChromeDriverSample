@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <AssemblyName>SeleniumConsole</AssemblyName>
+    <AssemblyName>ChromeDriverInstaller</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
